@@ -4,6 +4,7 @@
 
 body{
     overflow-x: hidden;
+	margin: 0 0 0 0;
 }
 
 .title {
@@ -80,8 +81,8 @@ em {
 	padding-left:inherit;
 	padding-right:inherit;
 	padding-top:inherit;
-	-webkit-animation-duration: 4s;
-	animation-duration: 4s;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 }
@@ -714,22 +715,7 @@ li {
   margin: 2.5%;
 }
 
-/*
-     FILE ARCHIVED ON 16:30:36 Dec 09, 2020 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 01:20:02 Feb 23, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.07
-  exclusion.robots.policy: 0.059
-  cdx.remote: 0.099
-  esindex: 0.013
-  LoadShardBlock: 283.072 (6)
-  PetaboxLoader3.datanode: 141.381 (7)
-  PetaboxLoader3.resolve: 215.955 (3)
-  load_resource: 147.74
-*/
+.plogos {
+	display: flex;
+	justify-content: center;
+}
